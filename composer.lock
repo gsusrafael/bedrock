@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2180f722773044803d114962ceeae5a6",
+    "content-hash": "8bbd9bfe49ee6566152fab5522e3b958",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -859,6 +859,705 @@
                 "schema"
             ],
             "time": "2021-07-22T09:24:00+00:00"
+        },
+        {
+            "name": "koodimonni-language/es_es",
+            "version": "5.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/5.8.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni-plugin-language/advanced-rich-text-tools-es_es": "*",
+                "koodimonni-plugin-language/akismet-es_es": "*",
+                "koodimonni-plugin-language/bbpress-es_es": "*",
+                "koodimonni-plugin-language/better-code-editing-es_es": "*",
+                "koodimonni-plugin-language/blogger-importer-es_es": "*",
+                "koodimonni-plugin-language/buddypress-es_es": "*",
+                "koodimonni-plugin-language/classic-editor-es_es": "*",
+                "koodimonni-plugin-language/classic-widgets-es_es": "*",
+                "koodimonni-plugin-language/debug-bar-es_es": "*",
+                "koodimonni-plugin-language/enable-jquery-migrate-helper-es_es": "*",
+                "koodimonni-plugin-language/health-check-es_es": "*",
+                "koodimonni-plugin-language/hello-dolly-es_es": "*",
+                "koodimonni-plugin-language/livejournal-importer-es_es": "*",
+                "koodimonni-plugin-language/movabletype-importer-es_es": "*",
+                "koodimonni-plugin-language/press-this-es_es": "*",
+                "koodimonni-plugin-language/tumblr-importer-es_es": "*",
+                "koodimonni-plugin-language/woocommerce-es_es": "*",
+                "koodimonni-plugin-language/wordpress-importer-es_es": "*",
+                "koodimonni-plugin-language/wp-autoupdates-es_es": "*",
+                "koodimonni-plugin-language/wp-front-end-editor-es_es": "*",
+                "koodimonni-plugin-language/wp-jquery-update-test-es_es": "*",
+                "koodimonni-plugin-language/wpcat2tag-importer-es_es": "*",
+                "koodimonni-theme-language/tt1-blocks-es_es": "*",
+                "koodimonni-theme-language/twentyeleven-es_es": "*",
+                "koodimonni-theme-language/twentyfifteen-es_es": "*",
+                "koodimonni-theme-language/twentyfourteen-es_es": "*",
+                "koodimonni-theme-language/twentynineteen-es_es": "*",
+                "koodimonni-theme-language/twentyseventeen-es_es": "*",
+                "koodimonni-theme-language/twentysixteen-es_es": "*",
+                "koodimonni-theme-language/twentyten-es_es": "*",
+                "koodimonni-theme-language/twentythirteen-es_es": "*",
+                "koodimonni-theme-language/twentytwelve-es_es": "*",
+                "koodimonni-theme-language/twentytwenty-es_es": "*",
+                "koodimonni-theme-language/twentytwentyone-es_es": "*",
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Full WordPress translation (including themes and core plugins) for Spanish (Spain) - es_es",
+            "keywords": [
+                "Full-Package",
+                "Translation",
+                "WordPress",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/advanced-rich-text-tools-es_es",
+            "version": "1.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/advanced-rich-text-tools/1.2.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress advanced-rich-text-tools translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "advanced-rich-text-tools",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/akismet-es_es",
+            "version": "4.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/akismet/4.2.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress akismet translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "akismet",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/bbpress-es_es",
+            "version": "2.6.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bbpress/2.6.6/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress bbpress translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "bbpress",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/better-code-editing-es_es",
+            "version": "0.7.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/better-code-editing/0.7.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress better-code-editing translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "better-code-editing",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/blogger-importer-es_es",
+            "version": "0.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/blogger-importer/0.9/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress blogger-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "blogger-importer",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/buddypress-es_es",
+            "version": "9.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/buddypress/9.1.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress buddypress translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "buddypress",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/classic-editor-es_es",
+            "version": "1.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/classic-editor/1.6.2/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress classic-editor translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "classic-editor",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/classic-widgets-es_es",
+            "version": "0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/classic-widgets/0.2/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress classic-widgets translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "classic-widgets",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/debug-bar-es_es",
+            "version": "1.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/debug-bar/1.1.2/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress debug-bar translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "debug-bar",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/enable-jquery-migrate-helper-es_es",
+            "version": "1.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/enable-jquery-migrate-helper/1.3.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress enable-jquery-migrate-helper translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "enable-jquery-migrate-helper",
+                "es_es"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/health-check-es_es",
+            "version": "1.4.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/health-check/1.4.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress health-check translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "health-check"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/hello-dolly-es_es",
+            "version": "1.7.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/hello-dolly/1.7.2/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress hello-dolly translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "hello-dolly"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/livejournal-importer-es_es",
+            "version": "0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/livejournal-importer/0.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress livejournal-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "livejournal-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/movabletype-importer-es_es",
+            "version": "0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/movabletype-importer/0.4/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress movabletype-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "movabletype-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/press-this-es_es",
+            "version": "1.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/press-this/1.1.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress press-this translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "press-this"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/tumblr-importer-es_es",
+            "version": "0.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/tumblr-importer/0.8/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress tumblr-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "tumblr-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/woocommerce-es_es",
+            "version": "5.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/5.7.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress woocommerce translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "woocommerce"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wordpress-importer-es_es",
+            "version": "0.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wordpress-importer/0.7/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wordpress-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "wordpress-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-autoupdates-es_es",
+            "version": "0.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-autoupdates/0.8.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wp-autoupdates translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "wp-autoupdates"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-front-end-editor-es_es",
+            "version": "2.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-front-end-editor/2.2.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wp-front-end-editor translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "wp-front-end-editor"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wp-jquery-update-test-es_es",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wp-jquery-update-test/2.0.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wp-jquery-update-test translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "wp-jquery-update-test"
+            ]
+        },
+        {
+            "name": "koodimonni-plugin-language/wpcat2tag-importer-es_es",
+            "version": "0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/wpcat2tag-importer/0.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress wpcat2tag-importer translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "wpcat2tag-importer"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/tt1-blocks-es_es",
+            "version": "0.4.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/tt1-blocks/0.4.7/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress tt1-blocks translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "tt1-blocks"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyeleven-es_es",
+            "version": "3.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyeleven/3.9/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyeleven translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentyeleven"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfifteen-es_es",
+            "version": "3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfifteen/3.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyfifteen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentyfifteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyfourteen-es_es",
+            "version": "3.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyfourteen/3.2/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyfourteen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentyfourteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentynineteen-es_es",
+            "version": "2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentynineteen/2.1/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentynineteen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentynineteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyseventeen-es_es",
+            "version": "2.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyseventeen/2.8/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyseventeen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentyseventeen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentysixteen-es_es",
+            "version": "2.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentysixteen/2.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentysixteen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentysixteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentyten-es_es",
+            "version": "3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentyten/3.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentyten translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentyten"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentythirteen-es_es",
+            "version": "3.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentythirteen/3.4/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentythirteen translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentythirteen"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwelve-es_es",
+            "version": "3.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwelve/3.5/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwelve translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentytwelve"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwenty-es_es",
+            "version": "1.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwenty/1.8/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwenty translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentytwenty"
+            ]
+        },
+        {
+            "name": "koodimonni-theme-language/twentytwentyone-es_es",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/theme/twentytwentyone/1.0/es_ES.zip"
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "WordPress twentytwentyone translations for Spanish (Spain) - es_es",
+            "keywords": [
+                "Translation",
+                "WordPress",
+                "es_es",
+                "twentytwentyone"
+            ]
         },
         {
             "name": "koodimonni/composer-dropin-installer",
