@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82c72d5711d5e15554ad0b705d56ca46",
+    "content-hash": "035c9b3791f349af815b07c776f26798",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -865,6 +865,50 @@
             "time": "2021-07-22T09:24:00+00:00"
         },
         {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "2ebddd0ead26f52962be385dcc85057be4c5a69e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/2ebddd0ead26f52962be385dcc85057be4c5a69e",
+                "reference": "2ebddd0ead26f52962be385dcc85057be4c5a69e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 | ^2.0",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2020-08-17T07:41:05+00:00"
+        },
+        {
             "name": "mck89/peast",
             "version": "v1.13.6",
             "source": {
@@ -1430,11 +1474,11 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.8",
+            "version": "5.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.8"
+                "reference": "5.8.1"
             },
             "dist": {
                 "type": "zip",
@@ -4791,6 +4835,24 @@
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
         },
         {
+            "name": "wpackagist-plugin/ga-google-analytics",
+            "version": 20210719,
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ga-google-analytics/",
+                "reference": "tags/20210719"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ga-google-analytics.20210719.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ga-google-analytics/"
+        },
+        {
             "name": "wpackagist-theme/amphibious",
             "version": "1.0.1",
             "source": {
@@ -4816,12 +4878,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "05f521f12b6e072bc77aaa78191907987d0454ff"
+                "reference": "2253b042c4cf1a9413f44a1c224ef2f705517bfb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/05f521f12b6e072bc77aaa78191907987d0454ff",
-                "reference": "05f521f12b6e072bc77aaa78191907987d0454ff",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2253b042c4cf1a9413f44a1c224ef2f705517bfb",
+                "reference": "2253b042c4cf1a9413f44a1c224ef2f705517bfb",
                 "shasum": ""
             },
             "conflict": {
@@ -4897,7 +4959,7 @@
                 "ezsystems/ezplatform-rest": ">=1.2,<=1.2.2|>=1.3,<=1.3.1",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": "<=6.13.8.1|>=7,<=7.5.15.1",
-                "ezsystems/ezpublish-legacy": ">=5.3,<5.3.12.6|>=5.4,<5.4.14.2|>=2011,<2017.12.7.3|>=2018.6,<2018.6.1.4|>=2018.9,<2018.9.1.3|>=2019.3,<2019.3.5.1",
+                "ezsystems/ezpublish-legacy": "<=2017.12.7.3|>=2018.6,<=2019.3.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1",
                 "ezyang/htmlpurifier": "<4.1.1",
@@ -5201,7 +5263,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-03T16:04:40+00:00"
+            "time": "2021-09-07T23:02:49+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
